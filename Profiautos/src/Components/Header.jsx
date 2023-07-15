@@ -6,13 +6,12 @@ import logo from '../imgs/profiautos_logo.png'
 const Header = () => {
   return (
     <div className='header'>
-        <div style={{display:'flex'}}>
-            <img src={logo} className='imageprofiautos'/>
+        <div>
+            <Link to={'/'} style={{display:'flex',justifyContent:'center'}}><img src={logo} className='imageprofiautos'/></Link>
         </div>
-        <div className='itensheader'>
-            <Link to={'/'} className='links'>Home</Link>
+        {/* <div className='itensheader'>
             <Link to={'/Presenca'} className='links'>Presenca</Link>
-        </div>
+        </div> */}
     </div>
   )
 }

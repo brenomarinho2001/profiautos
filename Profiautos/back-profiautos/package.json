@@ -1,5 +1,5 @@
 {
-  "name": "back-prof",
+  "name": "back-profiautos",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -20,7 +20,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "1a9b095f-1775-4577-90d9-df0ca042ff20"
+    "uuid": "2473551c-702f-440d-bab9-79fb05bc54cd"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",

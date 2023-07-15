@@ -12,11 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "curso": {
-      "type": "string"
-    },
     "cpf": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "curso": {
+      "type": "string",
+      "required": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true
     }
   }
 }
