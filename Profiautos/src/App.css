@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.header{
+  flex: 1;
+
+  height:5%;
+  width:100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+.footer{
+  flex: 1;
+  height:3%;
+  width:90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+.imageprofiautos{
+  display: flex;
+  max-width: 50%;
+}
+
+.container {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 90%;
+  align-items: center;
+}
+
+
+
+.forms{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.atvsSite{
+  display: flex;
+
+  height: 100px
+}
+
+form {
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+
+  background-color: #f9f9f9;
+}
+
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group#cpf-group input {
+  width: calc(100%);
+}
+
+#enviar{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

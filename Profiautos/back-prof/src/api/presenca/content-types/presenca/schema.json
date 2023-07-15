@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "presencas",
+  "info": {
+    "singularName": "presenca",
+    "pluralName": "presencas",
+    "displayName": "presenca",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "curso": {
+      "type": "string"
+    },
+    "cpf": {
+      "type": "string"
+    }
+  }
+}
